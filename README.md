@@ -42,7 +42,7 @@ pip install numpy scipy matplotlib scikit-image joblib numba sewar lpips torch t
 1.  Clone this repository.
 2.  Download Part2_Scanner.exe from: [https://drive.google.com/file/d/10xO8WTGbaBDIixBwpY9btxwHZAhHF3L2/view?usp=drive_link](https://drive.google.com/file/d/10xO8WTGbaBDIixBwpY9btxwHZAhHF3L2/view?usp=drive_link)
 3.  **Crucial:** Ensure `Part2_Scanner.exe` is placed in the root directory alongside the python scripts.
-4.  (Optional) Download the reference dataset from [Zenodo](https://zenodo.org/records/18095266).
+4.  For SynthOCT Challenge: Download the reference dataset from [Zenodo](https://zenodo.org/records/18095266).
 
 ### 3. Running the Baseline
 Run the `Orchestrator.py` script. It executes a **Self-Consistency Check** to demonstrate how metrics behave on physically accurate data versus structural changes.
