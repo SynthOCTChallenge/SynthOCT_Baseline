@@ -30,7 +30,7 @@ The pipeline is modular. Participants are expected to modify **`Part1`** (Genera
 | **`Part1_Generator.py`** | **Editable** | **The Baseline Model.** Generates 3D coordinates `(x, y, z)` and Backscattering Energy `(%)` for scatterers. Saves them to a `.txt` file. **This is the component you aim to improve.** |
 | **`Part2_Scanner.exe`** | **Fixed** | **The Virtual Scanner.** [Download link](https://drive.google.com/file/d/10xO8WTGbaBDIixBwpY9btxwHZAhHF3L2/view?usp=drive_link) A compiled, physics-based simulation engine. It takes the Digital Phantom `.txt` and renders a raw OCT B-scan (`.png`, 51dB dynamic range). |
 | **`Part3_Processor.py`** | **Fixed** | **Parametric Mapping.** Converts raw OCT scans into physics-based maps: **OAC** (Optical Attenuation Coefficient), **SC** (Speckle Contrast), and **RSC** (Refined Speckle Contrast). |
-| **`Orchestrator.py`** | **Manager** | **Validation Pipeline.** Configured for a **self-consistency check**. It generates four digital phantoms (Unstructured vs. Layered, each with two different speckle realizations) to test metric performance and establish a baseline for structural similarity under stochastic variations speckle patterns (driven by the same scatterers governing distribution function). |
+| **`Orchestrator.py`** | **Manager** | **Validation Pipeline.** Configured now  for a **self-consistency check**. It generates four digital phantoms (Unstructured vs. Layered, each with two different speckle realizations) to test metric performance and establish a baseline for structural similarity under stochastic variations speckle patterns (driven by the same scatterers governing distribution function). **Please reconfigure for real/synthetic comparison (Challenge mode).** |
 
 ---
 
