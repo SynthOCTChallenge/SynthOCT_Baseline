@@ -15,6 +15,12 @@ Unlike traditional medical image synthesis tasks that focus on visual plausibili
 
 Participants must generate **"Digital Phantoms"**—spatial distributions of optical scatterers. These phantoms are processed by our fixed, physics-based **Virtual Scanner** to generate synthetic OCT B-scans. The quality of synthesis is evaluated not just on visual similarity, but on physical consistency using Optical Attenuation Coefficients (OAC) and Speckle Statistics.
 
+**Organizers:**
+*   Dr. Lev Matveev (Russian Academy of Sciences)
+*   Samuel Remedios (Johns Hopkins University)
+*   Prof. Azhar Zam (New York University)
+*   Prof. Taimur Hassan (Abu Dhabi University)
+
 ## 📂 Repository Structure
 
 The pipeline is modular. Participants are expected to modify **`Part1`** (Generation). **`Part2`** (Scanning) acts as the fixed imaging device.
@@ -116,7 +122,7 @@ We use a multi-view evaluation strategy. Synthetic scans are compared against re
 | **PSNR** | Fidelity | **$\uparrow$ Higher** | High | **Signal Quality.** Ratio of signal power to noise. |
 | **VIF** | Info Theory | **$\uparrow$ Higher** | 1.0 | **Information.** Quantifies diagnostic information preservation. |
 | **MSE** | Error | **$\downarrow$ Lower** | 0.0 | **Accuracy.** Measures physical accuracy of pixel intensities. |
-| **LPIPS** | Perceptual | **$\downarrow$ Lower** | 0.0 | **Realism.** Low LPIPS confirms the scan "looks" real. |
+| **LPIPS** | Perceptual | **$\downarrow$ Lower** | 0.0 | **Realism.** Low LPIPS confirms the scan "looks" perceptually similar. |
 
 ---
 
