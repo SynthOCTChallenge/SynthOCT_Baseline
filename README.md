@@ -125,10 +125,15 @@ We use a multi-view evaluation strategy. Synthetic scans are compared against re
 
 ## 🤝 Citation & Contact
 
-This dataset is made freely available for research, benchmarking, and challenges. Use of this dataset requires appropriate citation of both this dataset:
+This repo and challenge dataset (https://doi.org/10.5281/zenodo.18095266) is made freely available for any reuse, including but not limited to research, benchmarking, and challenges. 
+Use of these open-access resources requires only appropriate citations:
 
 > L. A. Matveev, A. A. Sovetsky, K. S. Petrova, M. G. Ryabkov, M. A. Brueva, A. L. Matveyev, V. Y. Zaitsev. "In vivo Human Skin Optical Coherence Tomography (OCT) Dataset for Classification Benchmarking and Digital Phantom Generation" Zenodo (https://doi.org/10.5281/zenodo.18095266)
 
-and the associated paper:
+and the associated paper (Dataset):
 
-> A. A. Sovetsky, K. S. Petrova, M. A. Brueva, M. G. Ryabkov, A. L. Matveyev, L. A. Matveev, V. Y. Zaitsev. "Automated segmentation and skin-layer thickness estimation by extracting the optical scattering coefficient and speckle contrast parameter from optical coherence tomography scans". Skin Pharmacology and Physiology, 2026 (DOI: 10.1159/000550613).
+> A. A. Sovetsky, K. S. Petrova, M. A. Brueva, M. G. Ryabkov, A. L. Matveyev, L. A. Matveev, V. Y. Zaitsev. "Automated segmentation and skin-layer thickness estimation by extracting the optical scattering coefficient and speckle contrast parameter from optical coherence tomography scans". Skin Pharmacology and Physiology, 2026 (https://doi.org/10.1159/000550613).
+
+Codes:
+
+> D. Nikoshin, D. Mikhailenko, A. Sovetsky, A. Matveyev, V. Zaitsev, L. Matveev. "From Tissue-Mimicking Phantoms to Physics-Based Scans: Synthetic OCT for Few-Shot Foundation Model Training". Simulation and Synthesis in Medical Imaging (SASHIMI 2025), Lecture Notes in Computer Science, vol 16085, 2026 (https://doi.org/10.1007/978-3-032-05573-6_5).
