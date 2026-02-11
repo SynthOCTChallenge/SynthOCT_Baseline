@@ -60,6 +60,7 @@ The Orchestrator performs the following logic:
 ## 🔬 The Virtual Scanner (`Part2_Scanner.exe`)
 
 The scanner is provided as a compiled executable. While the `Orchestrator.py` handles it automatically, you can run it manually for debugging or integration into your own pipelines.
+Download link: [Part2_Scanner Download](https://drive.google.com/file/d/10xO8WTGbaBDIixBwpY9btxwHZAhHF3L2/view?usp=drive_link)
 
 ### Command Line Usage
 ```bash
