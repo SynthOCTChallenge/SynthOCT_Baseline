@@ -17,7 +17,7 @@ Participants must generate **"Digital Phantoms"**—spatial distributions of opt
 
 **Organizers:**
 *   Dr. Lev Matveev (Russian Academy of Sciences)
-*   Samuel Remedios (Johns Hopkins University)
+*   PhD. Samuel Remedios (Johns Hopkins University)
 *   Prof. Azhar Zam (New York University)
 *   Prof. Taimur Hassan (Abu Dhabi University)
 
