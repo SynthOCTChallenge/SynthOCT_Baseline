@@ -22,7 +22,7 @@ The pipeline is modular. Participants are expected to modify **`Part1`** (Genera
 | File | Type | Description |
 | :--- | :--- | :--- |
 | **`Part1_Generator.py`** | **Editable** | **The Baseline Model.** Generates 3D coordinates `(x, y, z)` and Backscattering Energy `(%)` for scatterers. Saves them to a `.txt` file. **This is the component you aim to improve.** |
-| **`Part2_Scanner.exe`** | **Fixed** | **The Virtual Scanner.** A compiled, physics-based simulation engine. It takes the Digital Phantom `.txt` and renders a raw OCT B-scan (`.png`, 51dB dynamic range). |
+| **`Part2_Scanner.exe`** | **Fixed** | **The Virtual Scanner.** [Download link](https://drive.google.com/file/d/10xO8WTGbaBDIixBwpY9btxwHZAhHF3L2/view?usp=drive_link) A compiled, physics-based simulation engine. It takes the Digital Phantom `.txt` and renders a raw OCT B-scan (`.png`, 51dB dynamic range). |
 | **`Part3_Processor.py`** | **Fixed** | **Parametric Mapping.** Converts raw OCT scans into physics-based maps: **OAC** (Optical Attenuation Coefficient), **SC** (Speckle Contrast), and **RSC** (Refined Speckle Contrast). |
 | **`Orchestrator.py`** | **Manager** | **Validation Pipeline.** Configured for a **self-consistency check**. It generates four digital phantoms (Unstructured vs. Layered, each with two different speckle realizations) to test metric performance and establish a baseline for structural similarity under stochastic variations speckle patterns (driven by the same scatterers governing distribution function). |
 
@@ -40,8 +40,9 @@ pip install numpy scipy matplotlib scikit-image joblib numba sewar lpips torch t
 
 ### 2. Installation
 1.  Clone this repository.
-2.  **Crucial:** Ensure `Part2_Scanner.exe` is placed in the root directory alongside the python scripts.
-3.  (Optional) Download the reference dataset from [Zenodo](https://zenodo.org/records/18095266).
+2.  Download Part2_Scanner.exe from: [https://drive.google.com/file/d/10xO8WTGbaBDIixBwpY9btxwHZAhHF3L2/view?usp=drive_link](https://drive.google.com/file/d/10xO8WTGbaBDIixBwpY9btxwHZAhHF3L2/view?usp=drive_link)
+3.  **Crucial:** Ensure `Part2_Scanner.exe` is placed in the root directory alongside the python scripts.
+4.  (Optional) Download the reference dataset from [Zenodo](https://zenodo.org/records/18095266).
 
 ### 3. Running the Baseline
 Run the `Orchestrator.py` script. It executes a **Self-Consistency Check** to demonstrate how metrics behave on physically accurate data versus structural changes.
