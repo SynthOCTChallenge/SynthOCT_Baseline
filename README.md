@@ -120,9 +120,9 @@ We use a multi-view evaluation strategy. Synthetic scans are compared against re
 | **SSIM** | Similarity | **$\uparrow$ Higher** | 1.0 | **Primary Metric.** Evaluates structural preservation. |
 | **MS-SSIM** | Similarity | **$\uparrow$ Higher** | 1.0 | **Robustness.** Evaluates structure at multiple scales. |
 | **PSNR** | Fidelity | **$\uparrow$ Higher** | High | **Signal Quality.** Ratio of signal power to noise. |
-| **VIF** | Info Theory | **$\uparrow$ Higher** | 1.0 | **Information.** Quantifies diagnostic information preservation. |
-| **MSE** | Error | **$\downarrow$ Lower** | 0.0 | **Accuracy.** Measures physical accuracy of pixel intensities. |
-| **LPIPS** | Perceptual | **$\downarrow$ Lower** | 0.0 | **Realism.** Low LPIPS confirms the scan "looks" perceptually similar. |
+| **VIF** | Info Theory | **$\uparrow$ Higher** | 1.0 | **Information.** Quantifies information preservation. |
+| **MSE** | Error | **$\downarrow$ Lower** | 0.0 | **Accuracy.** Measures pixel intensities deviation. |
+| **LPIPS** | Perceptual | **$\downarrow$ Lower** | 0.0 | **Perception.** Low LPIPS confirms the scan "looks" perceptually similar. |
 
 ---
 
