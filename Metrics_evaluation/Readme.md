@@ -48,17 +48,28 @@ Significance Levels (Stars)
 
 (*** ): Robust separation (Gap > Sum of Standard Deviations).
 
-Simulation of Structural Shifts
-(a) Micro-structural changes, (b) Meso-structural inclusions, (c) Macro-structural layers.
-(Illustrations_compressed.png)
+## Simulation of Structural Shifts
+<p align="center"><img src="Illustrations_compressed.png" width="800" alt="Illustrations">
 
-Physics-Based Parametric Maps
-(a) Speckle Contrast (SC), (b) Optical Attenuation Coefficient (OAC), (c) Refined Speckle Contrast (RSC).
-(Illustrations_compressed.png)
+ Visualization of the synthetic datasets representing three scales of structural changes: (a) Micro-structure (scatterer density), (b) Meso-structure (inclusions), and (c) Macro-structure (layered morphology).
 
-Metric Performance Results
-Diagnostic sensitivity of metrics across Micro-, Meso-, and Macro-structural changes.
-(Results.png)
+
+
+## Physics-Based Parametric Maps
+<p align="center"><img src="Physics_maps_compressed.png" width="800" alt="Physics_maps">
+ 
+Physics-based parametric maps derived from synthetic OCT B-scans. (a) Speckle Contrast (SC) map: Characterizes microstructural inhomogeneities but remains confounded by depth-dependent signal attenuation; (b) Optical Attenuation Coefficient (OAC) map: Provides a pixel-level representation of the backscattering energy distribution within each spatially resolved volume; (c) Refined Speckle Contrast (RSC) map: Calculated directly from the OAC map to reveal the pure inhomogeneity of the scatterer distribution, independent of in-depth attenuation artifacts. Together, OAC and RSC provide a physics-consistent and spatially resolved characterization of tissue structure.
+
+
+
+
+
+## Metric Performance Results
+<p align="center"><img src="Results_compressed.png" width="800" alt="Results">
+ 
+Metric performance results grouped by the type of structural changes (Micro-, Meso-, and Macro-structure). The diagnostic sensitivity is estimated as the separation between the intra-class baseline distribution (green bars), representing the ultimate reachable similarity level in speckled conditions for the same structural patterns, and the inter-class target distribution (red bars) representing structural shifts. Significance levels denote the separation of empirical value ranges: no star indicates overlapping ranges; (* ) indicates separation of the 95% empirical intervals (<5% overlap); (** ) indicates fully separated ranges (100% min-max separation); and (*** ) indicates robust separation where the gap between distributions exceeds the sum of their standard deviations. MS-SSIM and LPIPS achieved the highest overall sensitivity scores (31). These metrics demonstrated superior consistency across all scales, particularly excelling in detecting meso- and macro-structural anomalies, and proved highly effective on physics-consistent maps (OAC and RSC) even for micro-structural shifts (e.g., LPIPS achieved *** on OAC and MS-SSIM achieved ** on RSC, matching the high sensitivity of MSE/PSNR while offering better structural specificity).
+
+
 
 ## 🛠️ Usage
 
