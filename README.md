@@ -127,7 +127,7 @@ We use a multi-view evaluation strategy. Synthetic scans are compared against re
 ---
 
 **NOTE: For the Liderboard only MS-SSIM and LPIPS will be taken into account. Other metrics can be reported only for information due to its failure because of speckles**
-For details please check: (https://github.com/SynthOCTChallenge/SynthOCT_Baseline/tree/main/Metrics_evaluation)[https://github.com/SynthOCTChallenge/SynthOCT_Baseline/tree/main/Metrics_evaluation]
+For details please check: (Metrics_evaluation)[https://github.com/SynthOCTChallenge/SynthOCT_Baseline/tree/main/Metrics_evaluation]
 
 ## 🤝 Citation & Contact
 
