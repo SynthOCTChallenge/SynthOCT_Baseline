@@ -8,7 +8,7 @@
 
 ## 📌 Overview
 
-This repository contains the official **Baseline Pipeline** and **Physics-Based Evaluation Framework** for the **SynthOCT 2026 Challenge** (MICCAI Satellite Event).
+This repository contains the official **Baseline Pipeline** and **Physics-Based Evaluation Framework** for the **[SynthOCT 2026 Challenge](http://synthoct.com/)** (MICCAI Satellite Event).
 
 ### The Challenge Mission
 Unlike traditional medical image synthesis tasks that focus on visual plausibility (using GANs or Diffusion models), **SynthOCT** requires participants to solve an inverse physics problem: reconstructing the underlying **tissue microstructure**.
