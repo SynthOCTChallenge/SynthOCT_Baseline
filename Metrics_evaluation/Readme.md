@@ -141,5 +141,5 @@ Methodology:
  [2] Nikoshin, D., Mikhailenko, D., Sovetsky, A., Matveyev, A., Zaitsev, V., Matveev, L. (2026). From Tissue-Mimicking Phantoms to Physics-Based Scans: Synthetic OCT for Few-Shot Foundation Model Training. In: Fernandez, V., et al. (eds) Simulation and Synthesis in Medical Imaging. SASHIMI 2025. LNCS, vol 16085. Springer, Cham. https://doi.org/10.1007/978-3-032-05573-6_5
 ```
 ```text
- [3] MICCAI 2026 submission (will be available soon)
+ [3] Reference Submitted Paper (will be available soon)
 ```
